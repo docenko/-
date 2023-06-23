@@ -21,7 +21,7 @@ class AlienInvasion:
             self._check_events()
             self._update_screen()
             
-    def _check_event(self):
+    def _check_events(self):
         """Обрабатывает нажатия клавиш и события мыши"""
         #Отслеживание событий клавиатуры
         for event in pygame.event.get():
